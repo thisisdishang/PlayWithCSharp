@@ -27,6 +27,12 @@ namespace PlayWithCSharp
             bool result= true;
             Console.WriteLine(result);
 
+            float myNum = 5.75F;
+            Console.WriteLine(myNum);
+
+            long myNum2 = 15000000000L;
+            Console.WriteLine(myNum2);
+
             // constant variable
             const double PI = 3.14D;
             Console.WriteLine(PI);
