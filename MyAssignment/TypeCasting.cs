@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* type casting in c sharp */
+
+using System;
 
 namespace PlayWithCSharp
 {

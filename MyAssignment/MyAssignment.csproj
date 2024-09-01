@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>PlayWithCSharp.TypeCasting</StartupObject>
+    <StartupObject>MyAssignment.Operators</StartupObject>
   </PropertyGroup>
 
 </Project>
