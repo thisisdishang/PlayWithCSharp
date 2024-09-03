@@ -2,7 +2,7 @@
 
 using System;
 
-namespace MyAssignment
+namespace PlayWithCSharp
 {
     internal class Operators
     {
@@ -55,6 +55,31 @@ namespace MyAssignment
             Console.WriteLine(no);
             no <<= 1;
             Console.WriteLine(no);
+
+            // comparison operator
+            int x = 5,y=3;
+            Console.WriteLine(x>y);
+            x=3; y=2;
+            Console.WriteLine(x<y);
+            Console.WriteLine(x==y);
+            Console.WriteLine(x!=y);
+            x = 3; y=3;
+            Console.WriteLine(x>=y);
+            Console.WriteLine(x<=y);
+
+            // logical operator
+            Console.WriteLine(5<10 && 5<4);
+            Console.WriteLine(2>0 || 3<2);
+            Console.WriteLine(!(2 > 0 || 3 < 2));
+
+            // math class methods
+            Console.WriteLine(Math.Max(50, 20));
+            Console.WriteLine(Math.Min(50, 20));
+            Console.WriteLine(Math.Abs(-3.25));
+            Console.WriteLine(Math.Sqrt(121));
+            Console.WriteLine(Math.Round(5.6));
+            Console.WriteLine(Math.Round(5.4));
+
         }
     }
 }
