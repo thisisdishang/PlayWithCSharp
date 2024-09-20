@@ -41,6 +41,19 @@ namespace PlayWithCSharp
             Console.WriteLine("The youngest child is: " + child3);
         }
 
+        // method overloading
+        static int Plus(int x, int y)
+        {
+            return x + y;
+        }
+
+        static double Plus(double x, double y)
+        {
+            return x + y;
+        }
+
+
+
 
         static void Main(string[] args)
         {
@@ -51,6 +64,10 @@ namespace PlayWithCSharp
             Console.WriteLine("Squre of number: " + square());
             Console.WriteLine("Sum of two numbers: " + sum(5, 2));
             MyMethod3(child3: "Amy", child1: "Lais", child2: "Reya");
+
+            // call overload method
+            Console.WriteLine("Int Method: " + Plus(5, 2));
+            Console.WriteLine("Double Method: " + Plus(5.5D, 2.3D));
         }
     }
 }
