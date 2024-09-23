@@ -13,7 +13,9 @@ namespace MyAssignment.OOP
         static void Main(string[] args)
         {
             Car ob1 = new Car();
+            ob1.color = "Blue";
             Console.WriteLine(ob1.color);
+            ob1.MyMethod();
         }
     }
 }

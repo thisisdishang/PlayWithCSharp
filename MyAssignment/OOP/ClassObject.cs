@@ -12,6 +12,11 @@ namespace MyAssignment.OOP
     {
         public string color = "Red"; // field
 
+        public void MyMethod()
+        {
+            Console.WriteLine("Method from class");
+        }
+
         static void Main(string[] args)
         {
             Car ob1 = new Car();
