@@ -16,6 +16,8 @@ namespace MyAssignment.OOP
             ob1.MyMethod();
             ob1.color = "Blue";
             Console.WriteLine(ob1.color);
+            ob1.color = "Green";
+            Console.WriteLine(ob1.color);
             ob1.MyMethod();
         }
     }
