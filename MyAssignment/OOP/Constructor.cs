@@ -29,6 +29,7 @@ namespace MyAssignment.OOP
         {
             Car2 Ford = new Car2();  // Create an object of the Car Class (this will call the constructor)
             Car2 BMW = new Car2("white");
+            Car2 Mustang = new Car2("Red");
             Console.WriteLine(BMW.modelcolor);
             Console.WriteLine(Ford.model);  // Print the value of model
         }
