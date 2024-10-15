@@ -33,6 +33,15 @@ namespace MyAssignment.OOP
         }
     }
 
+    class BOB : RBI
+    {
+        public override void rate()
+        {
+            Console.WriteLine("Rate Interest in BOB 8%");
+        }
+
+    }
+
     internal class Polymorphism
     {
         static void Main(string[] args)
@@ -40,10 +49,12 @@ namespace MyAssignment.OOP
             RBI o1 = new RBI();
             RBI o2 = new SBI();
             RBI o3 = new HDFC();
+            RBI o4 = new BOB();
 
             o1.rate();
             o2.rate();
             o3.rate();
+            o4.rate();
         }
     }
 }
