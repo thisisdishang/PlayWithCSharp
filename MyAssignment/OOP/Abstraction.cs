@@ -34,7 +34,7 @@ namespace MyAssignment.OOP
 
     class Abstraction
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             circle ob1 = new circle();
             ob1.area();
