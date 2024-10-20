@@ -13,6 +13,11 @@ namespace MyAssignment.OOP
         void interest();
     }
 
+    interface Animal
+    {
+        void sound();
+    }
+
     class Kotak : Bank
     {
         public void interest()
