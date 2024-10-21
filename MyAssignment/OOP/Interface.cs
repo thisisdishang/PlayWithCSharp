@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,16 +14,21 @@ namespace MyAssignment.OOP
         void interest();
     }
 
-    interface Animal
+    interface SecondInterface
     {
-        void sound();
+        void method();
     }
 
-    class Kotak : Bank
+    class Kotak : Bank, SecondInterface
     {
         public void interest()
         {
             Console.WriteLine("SBI Interest:8%");
+        }
+
+        public void method()
+        {
+            Console.WriteLine("Some method is call");
         }
     }
 
@@ -32,6 +38,7 @@ namespace MyAssignment.OOP
         {
             Kotak s1 = new Kotak();
             s1.interest();
+            s1.method();
         }
     }
 }
