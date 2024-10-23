@@ -1,4 +1,4 @@
-﻿// Interface in C Sharp
+ni﻿// Interface in C Sharp
 
 using System;
 using System.Collections.Generic;
@@ -28,7 +28,7 @@ namespace MyAssignment.OOP
 
         public void method()
         {
-            Console.WriteLine("Some method is call");
+            Console.WriteLine("Method is call");
         }
     }
 
