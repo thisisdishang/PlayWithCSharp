@@ -1,4 +1,4 @@
-ni﻿// Interface in C Sharp
+// Interface in C Sharp
 
 using System;
 using System.Collections.Generic;
