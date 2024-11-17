@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>MyAssignment.Delegates</StartupObject>
+    <StartupObject>MyAssignment.FuncDelegate</StartupObject>
   </PropertyGroup>
 
 </Project>
