@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>MyAssignment.ActionDelegate</StartupObject>
+    <StartupObject>MyAssignment.Collections.List</StartupObject>
   </PropertyGroup>
 
 </Project>

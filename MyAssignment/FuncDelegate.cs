@@ -14,8 +14,8 @@ namespace MyAssignment
 
         static void Main(string[] arg)
         {
-            Func<int, int, int, int,int> fd = FuncMethod;
-            Console.WriteLine("Func Delegate: "+fd(4, 2, 3, 10));
+            Func<int, int, int, int, int> fd = FuncMethod;
+            Console.WriteLine("Func Delegate: " + fd(4, 2, 3, 10));
         }
     }
 }
