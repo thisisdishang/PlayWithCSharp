@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>MyAssignment.Collections.Stack</StartupObject>
+    <StartupObject>MyAssignment.Collections.Queue</StartupObject>
   </PropertyGroup>
 
 </Project>
